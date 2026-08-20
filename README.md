@@ -1,12 +1,12 @@
 # Personal Atlas
 
-Интерактивная карта стран, в которых я побывал, и тех, куда собираюсь.
+An interactive map of the countries I have been to and the ones I am heading for.
 
-Карта мира в проекции Робинсона, границы Natural Earth 1:10 млн;
+World map in the Robinson projection, borders from Natural Earth 1:10m.
 
-## Как править данные
+## Editing the data
 ```js
-const VISITED = { "italy": "Рим и Флоренция, октябрь 2019", ... };  // ключ: заметка
-const WISHLIST = { "japan": "Киото весной" };                       // куда хочется
+const VISITED = { "italy": "Rome and Florence, October 2019", ... };  // key: note
+const WISHLIST = { "japan": "Kyoto in spring" };                     // where I want to go
 ```
-Ключ страны — латинский слаг, список слагов печатается в консоли браузера.
+A country key is a latin slug; the full list of slugs is printed to the browser console.
